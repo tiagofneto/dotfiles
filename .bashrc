@@ -10,7 +10,9 @@
 #WHITE="$(tput setaf 33)"
 #RESET="$(tput sgr0)"
 
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
+alias ls='exa -lahF --icons --group-directories-first --git'
+alias grep='grep --color=auto'
 
 alias vim='nvim'
 
@@ -20,12 +22,19 @@ alias vim='nvim'
 PS1='[\u@\h \W]\$ '
 
 export EDITOR=nvim
+export PATH="$PATH:~/.local/bin"
+export PATH="$PATH:~/opt/flutter/bin"
 
-alias la='ls -A'
-alias ..='cd ..'
 alias mv='mv -i'
 alias rm='rm -i'
 alias cp='cp -i'
+
+alias ..='cd ..' 
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
 
 #I have my personal aliases in the bash_alisases file, and the ones I consider useful for any system I keep here in the .bashrc
 if [ -f ~/.bash_aliases ]; then
