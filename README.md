@@ -10,3 +10,4 @@ Some information:
 * **Compositor**: Picom
 * **GTK-Theme**: Ark-Dark
 * **Text editor**: Neovim
+* **Application Launcher**: Rofi 
