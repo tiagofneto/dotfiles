@@ -38,7 +38,7 @@
 *.color15: #fdf6e3
 
 !! URxvt Appearance
-URxvt.font: xft:Inconsolata Nerd Font Mono:style=Medium:size=13
+URxvt.font: xft:Inconsolata Nerd Font Mono:style=Medium:size=13,xft:MesloLGM Nerd Font:style=Regular:size=10
 !URxvt.boldFont: xft:Inconsolata:style=Bold:size=12
 !URxvt.italicFont: -*-rissole-*
 !URxvt.boldItalicfont: -*-rissole-*

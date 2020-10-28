@@ -58,3 +58,9 @@ alias weather='curl wttr.in'
 
 #Manage dotfiles - I use a git bare repo
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+#Fish interactive shell
+if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" ]]
+then
+	exec fish
+fi
