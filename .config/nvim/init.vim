@@ -1,4 +1,4 @@
-set nu
+set nu rnu
 set expandtab
 set ignorecase
 set smartcase

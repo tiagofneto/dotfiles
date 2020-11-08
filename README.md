@@ -6,7 +6,7 @@ Some information:
 * **WM**: i3-gaps
 * **Bar**: Polybar
 * **Terminal**: Urxvt
-* **Shell**: Bash
+* **Shell**: Fish
 * **Compositor**: Picom
 * **GTK-Theme**: Ark-Dark
 * **Text editor**: Neovim
